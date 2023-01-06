@@ -1,0 +1,94 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(253,240,213);
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    color:white;
+}
+.container{
+    margin-top: 50px;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(254,207,68);
+    border-radius: 2px;
+    position: relative;
+}
+.game{
+    /* display: none; */
+}
+.content{
+    padding: 50px;
+}
+input[type=radio] {
+    accent-color: grey;
+}
+.question{
+    font-size: large;
+    margin-bottom: 14px;
+    background-color: rgb(255,0,0);
+}
+.answer{
+    font-size: 12px;
+    margin-bottom: 10px;
+    background-color: rgb(255,0,0);
+    width: fit-content;
+
+}
+.submit{
+    border-radius: 1px;
+    font-family: 'poppins',sans-serif;
+    background-color: rgb(255,0,0);
+    color: white;
+    border: none;
+    font-size: larger;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.result{
+    border-radius: 2px;
+    display: none;
+    font-size: large;
+    background-color: rgb(254,207,68);
+    padding: 50px;
+    text-align: center;
+}
+.result h1{
+    font-size: 30px;
+    background-color: red;
+    
+}
+.correct{
+    width: fit-content;
+    font-size: large;
+    background-color: red;
+}
+.wrong{
+    font-size: large;
+    background-color: red;
+    width: fit-content;
+}
+.score{
+    font-size: large;
+    background-color: red;
+    width: fit-content;
+}
+.play{
+    font-size: large;
+    font-family: 'poppins',sans-serif;
+    border-radius: 2px;
+    color:white;
+    background-color: red;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+}
